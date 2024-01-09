@@ -1,0 +1,153 @@
+
+@font-face {
+    font-family: 'dumb_font';
+    src: url('../fonts/2Dumb-webfont.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dumb_font';
+    src:url('../fonts/3Dumb-webfont.woff') format('woff');
+  
+    font-weight: bold;
+    font-style: normal;
+
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Arial Narrow Bold', sans-serif
+}
+
+body{
+    background-color: #252422;
+    color: #FFFCF2;
+   
+    
+    
+}
+
+img {
+    max-width: 100%;
+    
+    
+    
+    
+
+   
+    
+}
+
+nav {
+
+    background-color: #EB5E28;
+    text-align: center;
+    
+    
+   
+    
+
+
+}
+
+
+
+nav li {
+
+    display: flex;
+    font-size: 1em;
+    padding: 1em;
+  
+   
+    
+    
+
+    
+    
+    
+    
+}
+
+
+
+
+
+nav a:link{
+    color: #252422;
+    text-decoration: none;
+    
+    
+    
+}
+
+nav a:hover{
+    color: #252422;
+    text-decoration:underline;
+    background-color: #f17646;
+    
+    
+    
+    
+    
+}
+nav a::after{
+    color: #252422;
+}
+
+
+nav a:visited{
+    color: #252422;
+}
+
+
+.index_min_pc{
+    color: #EB5E28;
+}
+h1,h2,h3,h4{
+    font-family: 'dumb_font';
+    line-height: 1.5em;
+    color: #EB5E28;
+    
+}
+
+h1{
+    line-height: 2em;
+    
+    
+    
+}
+
+
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+    
+    
+}
+
+
+.index_min_pc{
+    background-color: #FFFCF2;
+    text-decoration: none;
+    border:solid #EB5E28;
+    border-radius: 0.5em;
+    border-width: 0.15em;
+    font-size: 1.5em;
+    font: impact;
+    line-height: 1.5em;
+    
+    
+}
+
+.index_min_pc:hover{
+    background-color: #eb5f28f3;    
+}
+
